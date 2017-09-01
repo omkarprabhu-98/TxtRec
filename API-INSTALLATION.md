@@ -46,7 +46,7 @@
     	sudo ldconfig
 	```
 	
-3. Then downloaded the eng.testeddata file from [data file(s) for the language(s) you interest in](https://github.com/tesseract-ocr/tesseract/wiki/Data-Files) and placed it in the tessdata directory in tesseract-ocr directory
+3. Then downloaded the eng.testeddata file from [data file(s) for the language(s) you are interest in](https://github.com/tesseract-ocr/tesseract/wiki/Data-Files) and placed it in the tessdata directory in tesseract-ocr directory
 
 4. Then I moved the tessdata folder to 'usr/local/share/'
 

@@ -43,7 +43,7 @@ Guide for setting up environment to use project and contributing to it
     
 The project functions with the tesseract binary file.
      
-If you want to know how I built the binary from source checkout : [Api-Installation](https://github.com/omkarprabhu-98/WebOCR/blob/master/API-INSTALLATION.md)     
+If you want to know how I built the binary from source checkout : [Api-Installation](https://github.com/omkarprabhu-98/TxtRec/blob/master/API-INSTALLATION.md)     
     
     
 ### To be added
