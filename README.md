@@ -85,4 +85,5 @@ The projects is dependent on the Tesseract API functions
 * Noise which is variations in color of image can result in lower accuracy
 * Position of text in image if not horizontal is almost unreadable to tesseract
     
-    
+### Api installation
+* [Visit](https://github.com/omkarprabhu-98/TxtRec/blob/master/API-INSTALLATION.md)  
