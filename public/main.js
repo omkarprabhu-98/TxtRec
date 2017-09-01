@@ -15,7 +15,7 @@ app.controller('Ct',function($http, $scope){
         $http(
             {
                 method: 'POST',
-                url: "http://localhost:3000/api/ocr",
+                url: "/api/ocr",
                 data: formD,
                 transformRequest: angular.identity,
                 headers: {'Content-type': undefined}
