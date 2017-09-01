@@ -20,12 +20,12 @@
 	
 2. Went inside leptonica and built it using autoconf
 	
-	```	
-		cd leptonica 
-		./autobuild
-		./configure
-		make
-		sudo make install
+	```
+        cd leptonica 
+        ./autobuild
+        ./configure
+        make
+        sudo make install
 	```
 	
 ## Tesseract

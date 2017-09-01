@@ -32,7 +32,7 @@ Used from [WebOCR](https://github.com/omkarprabhu-98/WebOCR)
 * glob (node-tesseract)
 * uuid (node-tesseract)
 * multer (to process form data which is sent to upload images)
-* fs   (for deleting uploaded image imfiles)
+* fs   (for deleting uploaded image files)
 * jimp (to improve image contrast and greyscale for better readability)
 
 ## Usage
