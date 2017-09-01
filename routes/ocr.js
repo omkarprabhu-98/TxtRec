@@ -17,8 +17,8 @@ router.post('/', upload.single('file'), function(req, res) {
     // specify location of tesseract
     var options = {
         l: 'eng',
-        binary: './libs/tesseract',
-        config: '--tessdata "./libs/tessdata"'
+        binary: './../libs/tesseract',
+        config: '--tessdata "./../libs/tessdata"'
     };
 
     Jimp.read('./uploads/'+ req.file.filename, function (err, lenna) {
