@@ -54,7 +54,7 @@
  		export TESSDATA_PREFIX='/usr/local/share/'
 		sudo mv tessdata $TESSDATA_PREFIX	
 	```
-5. The generated binary file was used in this project [tesseract](https://github.com/omkarprabhu-98/TxtRec/libs)
+5. The generated binary file was used in this project [tesseract](https://github.com/omkarprabhu-98/TxtRec/tree/master/libs)
 	
 
 ## Node tesseract

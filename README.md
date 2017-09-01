@@ -3,7 +3,7 @@ A simple web app with MEAN stack for OCR using Tesseract API
 
 This project was earlier Web Ocr but changes were made: removing redundancies and reducing file size
 
-[View Commits](https://github.com/omkarprabhu-98/WebOCR) 
+[View Commits](https://github.com/omkarprabhu-98/WebOCR/commits/master) 
 
 Used from [WebOCR](https://github.com/omkarprabhu-98/WebOCR)
  * Binary file of tesseract
@@ -55,7 +55,7 @@ Used from [WebOCR](https://github.com/omkarprabhu-98/WebOCR)
 2. Move into the directory  
     
     ```
-           cd txtrec
+        cd txtrec
     ```       
 3. Install dependencies using 
 
@@ -70,6 +70,8 @@ Used from [WebOCR](https://github.com/omkarprabhu-98/WebOCR)
    and open http://localhost:3000 in your browser     
 
 ## Contributing    
+
+To contibute to this project checkout: [Contribute](https://github.com/omkarprabhu-98/TxtRec/blob/master/CONTRIBUTING.md)
       
 ## Limitations
 The projects is dependent on the Tesseract API functions
