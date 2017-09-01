@@ -1,6 +1,8 @@
 # Txt Rec
 A simple web app with MEAN stack for OCR using Tesseract API
 
+A demo of showing the working can be found here: [Video](https://drive.google.com/file/d/0BxgYOTkSevMEZXc5UjQzQWhHWHM/view?usp=sharing)
+
 This project was earlier Web Ocr but changes were made: removing redundancies and reducing file size
 
 [View Commits](https://github.com/omkarprabhu-98/WebOCR/commits/master) 
