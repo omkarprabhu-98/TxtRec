@@ -7,20 +7,20 @@ var multer  = require('multer');
 var upload = multer({ dest: 'uploads/' });
 var Jimp = require("jimp");
 var fs = require('fs');
-
 var tesseract = require('./../libs/node-tesseract');
 
 
 router.post('/', upload.single('file'), function(req, res) {
 
 
-    // specify location of tesseract
+    // specify location of tesseract binary file
     var options = {
         l: 'eng',
         binary: 'libs/tesseract',
         config: '--tessdata "libs/tessdata"'
     };
 
+    // add contrast and greyscale for better readability
     Jimp.read('./uploads/'+ req.file.filename, function (err, lenna) {
 
         var file = "res." + lenna.getExtension();
@@ -29,7 +29,7 @@ router.post('/', upload.single('file'), function(req, res) {
         lenna.quality(100)
             .contrast(1)
             .greyscale()
-            .write(file); // save
+            .write(file);
 
 
 

@@ -11,7 +11,9 @@ app.controller('Ct',function($http, $scope){
 
     // upload
     $scope.up = function () {
+
         $('.preloader').addClass('loader');
+
         $http(
             {
                 method: 'POST',
@@ -33,7 +35,6 @@ app.controller('Ct',function($http, $scope){
 
     // select file
     $scope.selectedFile = function(file){
-        // $('#preview').css('display','block');
         // add file to key 'file'
         if(formD.has('file')){
             formD.delete('file');
@@ -41,6 +42,7 @@ app.controller('Ct',function($http, $scope){
         // console.log(file);
         formD.append('file', file);
         renderImage(file);
+        $scope.ocrText = '';
     };
 
     // scroll check for fade in
